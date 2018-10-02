@@ -36,7 +36,7 @@
 		* @param string $meth the name of the method to invoke
 		* @param array $pars array of parameters to be passed to the method (xmlrpcval objects)
 		*/
-		function ezjscoremsg($meth, $pars=0)
+		function __construct($meth, $pars=0)
 		{
 		    $this->methodname=$meth;
 		    if(is_array($pars))
